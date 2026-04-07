@@ -1,16 +1,35 @@
-# React + Vite
+<h3>📸 Media Search App</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Media Search Application that allows users to search and explore photos, videos, and GIFs in one place. Users can also save their favorite media items to a personal collection and manage them easily.
 
-Currently, two official plugins are available:
+<h3>📌 Features</h3>
+<h3>🔍 Search Media</h3>
+Search for any keyword (e.g., nature, cars, cats)
+Get results in:
+<li>📷 Photos </li>
+<li>🎥 Videos </li>
+<li>🎞️ GIFs </li>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>📂 Save to Collection</h3>
+<li>Save your favorite media items</li>
+<li>Access saved items on the Collection Page</li>
+<li>Persistent and organized view of saved content</li>
 
-## React Compiler
+<h3>❌ Remove from Collection</h3>
+<li>Remove saved items anytime</li>
+<li>Keep your collection clean and updated</li>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<h3>🛠️ Tech Stack</h3>
+<li>Frontend: HTML, CSS, JavaScript / React</li>
+<li>API: Media APIs (like Unsplash / Pexels / Tenor)</li>
+<li>State Management: React Hooks, React Redux Toolkit</li>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h3>📸 Screenshots</h3>
+<li>Photos</li>
+<img src= "./screenshots/photos.png">
+<li>Videos</li>
+<img src= "./screenshots/videos.png">
+<li>GIFs</li>
+<img src= "./screenshots/gifs.png">
+<li>Collections</li>
+<img src= "./screenshots/collections.png">
