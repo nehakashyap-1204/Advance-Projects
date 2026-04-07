@@ -10,7 +10,7 @@ function Navbar() {
           className="text-base font-medium bg-(--c4) text-(--c1) rounded px-3 py-1 active:scale-95"
           to="/"
         >
-          Search{" "}
+          Search
         </Link>
         <Link
           className="text-base font-medium bg-(--c4) text-(--c1) rounded px-3 py-1 active:scale-95"

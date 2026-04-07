@@ -1,14 +1,16 @@
+import React from "react";
 import { useDispatch } from "react-redux";
-import { addCollection, addedToast } from "../redux/features/collectionSlice";
+import {
+  removeCollection,
+  removeToast,
+} from "../redux/features/collectionSlice";
 
-function ResultCard({ item }) {
+function CollectionCard({ item }) {
   const dispatch = useDispatch();
-
-  const addToCollection = (item) => {
-    dispatch(addCollection(item));
-    dispatch(addedToast());
+  const removeFromCollection = (item) => {
+    dispatch(removeCollection(item));
+    dispatch(removeToast());
   };
-
   return (
     <div className="relative w-[15vw] h-75 bg-white rounded-xl overflow-hidden">
       <a target="_blank" href={item.url} className="h-full">
@@ -48,14 +50,14 @@ function ResultCard({ item }) {
       >
         <h2 className="text-lg font-semibold capitalize">{item.title}</h2>
         <button
-          onClick={() => addToCollection(item)}
+          onClick={() => removeFromCollection(item)}
           className="bg-purple-800 px-3 py-1 font-medium rounded cursor-pointer active:scale-95"
         >
-          Save
+          Remove
         </button>
       </div>
     </div>
   );
 }
 
-export default ResultCard;
+export default CollectionCard;

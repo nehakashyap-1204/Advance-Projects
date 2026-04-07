@@ -18,7 +18,7 @@ function Tabs() {
             }}
             className={`${
               activeTab == elem ? "bg-purple-800" : "bg-purple-600"
-            } px-7 py-3 rounded text-white text-xl cursor-pointer uppercase transition`}
+            } px-5 py-2 rounded text-white text-xl cursor-pointer uppercase transition`}
           >
             {elem}
           </button>

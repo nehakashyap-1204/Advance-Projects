@@ -69,7 +69,7 @@ function ResultGrid() {
   if (loading) return <h1>Loading...</h1>;
 
   return (
-    <div className="w-full flex justify-between flex-wrap gap-6 overflow-auto px-10">
+    <div className="w-full flex justify-between flex-wrap gap-5 overflow-auto px-10">
       {results.map((item, idx) => {
         return (
           <div key={idx}>
